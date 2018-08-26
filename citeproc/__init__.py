@@ -6,7 +6,7 @@ from citeproc.py2compat import *
 import os
 import json
 
-from . import types, formatter
+from . import csltypes, formatter
 
 
 DATA_PATH = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'data')

@@ -8,7 +8,7 @@ import unicodedata
 
 from warnings import warn
 
-from ...types import (ARTICLE, ARTICLE_JOURNAL, BOOK, CHAPTER, MANUSCRIPT,
+from ...csltypes import (ARTICLE, ARTICLE_JOURNAL, BOOK, CHAPTER, MANUSCRIPT,
                       PAMPHLET, PAPER_CONFERENCE, REPORT, THESIS)
 from ...string import String, MixedString, NoCase
 from .. import BibliographySource, Reference, Name, Date, DateRange
